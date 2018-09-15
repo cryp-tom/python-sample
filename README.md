@@ -18,6 +18,16 @@ pyenv install 3.6.2
 sudo yum install  python36u-tkinter
 ```
 
+
 see
 https://stackoverflow.com/questions/36327134/matplotlib-error-no-module-named-tkinter
 
+
+tkinterのバージョン探したい場合には
+```
+ yum search tkinter
+```
+
+u付きとそうじゃないのの違いはリポジトリがEPELかIUSCか
+
+see https://qiita.com/yoshiken/items/49bad2a1306073052bcd
