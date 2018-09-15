@@ -10,9 +10,12 @@ see
 https://matplotlib.org/users/installing.html
 
 'ImportError: No module named 'tkinter'' が出たら(CentOSの場合)
+tk / tk-devel いれて pythonを再インストール、その後で python36u-tkinter をインストール
 
 ```
-yum install tkinter
+sudo yum install tk tk-devel
+pyenv install 3.6.2
+sudo yum install  python36u-tkinter
 ```
 
 see
